@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+
+header.debug {
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.jumbotron.debug {
+    height:400px;
+    background-color: yellow;
+}
+
+.contenttitle {
+    height: 100px;
+    background-color: pink;
+}
+
+section > div.debug{
+    height: 300px;
+    background-color: black;
+}
+
+
+
+
+
+footer.debug {
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+
