@@ -35,6 +35,8 @@ section .left, section .right {
     width: 20%;
 }
 
+
+/* debug */
 header.debug {
     height: 150px;
     background-color: aquamarine;
@@ -62,4 +64,4 @@ footer.debug {
     background-color: skyblue;
 }
 
-
+/* /debug */
