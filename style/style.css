@@ -16,11 +16,6 @@
     margin: auto;
 }
 
-#contenttitle {
-    height: 100px;
-    background-color: pink;
-}
-
 section .content {
     float:left;
     margin-top: 5px;
@@ -57,7 +52,7 @@ section .left, section .right {
     height: 400px;  
 }
 
-footer.debug {
+.debug footer {
     height: 100px;
     background-color: yellowgreen;
 }
@@ -68,6 +63,11 @@ footer.debug {
 
 .debug .central {
     background-color: skyblue;
+}
+
+.debug #contenttitle {
+    height: 100px;
+    background-color: pink;
 }
 
 /* /debug */
